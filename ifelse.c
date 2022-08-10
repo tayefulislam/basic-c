@@ -2,9 +2,9 @@
 
 int main()
 {
-    int age;
-    printf("Enter Age:");
-    scanf("%d", &age);
+    // int age;
+    // printf("Enter Age:");
+    // scanf("%d", &age);
 
     // if else to get singel result
 
@@ -30,15 +30,45 @@ int main()
 
     // if else to check multi conditon and get multi result
 
-    if (age >= 20)
-    {
-        printf("get go abroad\n");
-    }
+    // if (age >= 20)
+    // {
+    //     printf("get go abroad\n");
+    // }
 
-    if (age >= 18 && age <= 21)
-    {
-        printf("Do anything\n");
-    }
+    // if (age >= 18 && age <= 21)
+    // {
+    //     printf("Do anything\n");
+    // }
 
+    // check grade
+
+    // int grade;
+    // printf("Plase enter your mark:");
+    // scanf("%d", &grade);
+
+    // // cheking the condition
+
+    // if (grade >= 80 && grade <= 100)
+    // {
+    //     printf("A+\n");
+    // }
+    // else if (grade >= 70 && grade < 80)
+    // {
+    //     printf("A\n");
+    // }
+
+    // else
+    // {
+    //     printf("Invalid number\n");
+    // }
+
+    // check tenary operator
+
+    int age;
+
+    printf("Plase enter a number:");
+    scanf("%d", &age);
+
+    age >= 18 ? printf("Your are adult\n") : printf("Not adult\n");
     return 0;
 }
