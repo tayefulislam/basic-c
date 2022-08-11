@@ -2,6 +2,16 @@
 
 int main()
 {
+
+    // check switch system
+
+    /*
+
+    If we do not use the break statement, all statements after the matching label are also executed.
+
+
+    */
+
     int day;
 
     printf("Plase enter a day number(1-7):");

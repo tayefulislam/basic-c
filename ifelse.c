@@ -64,11 +64,38 @@ int main()
 
     // check tenary operator
 
-    int age;
+    // int age;
 
-    printf("Plase enter a number:");
-    scanf("%d", &age);
+    // printf("Plase enter a number:");
+    // scanf("%d", &age);
 
-    age >= 18 ? printf("Your are adult\n") : printf("Not adult\n");
+    // age >= 18 ? printf("Your are adult\n") : printf("Not adult\n");
+
+    // nested if else
+    // check positive and even and od number:
+
+    int num;
+    printf("Please enter a number");
+    scanf("%d", &num);
+
+    if (num >= 0)
+    {
+        printf("Positive Number:\n");
+
+        if (num % 2 == 0)
+        {
+            printf("even\n");
+        }
+
+        else
+        {
+            printf("odd\n");
+        }
+    }
+    else
+    {
+        printf("Nagivate NUmber\n");
+    }
+
     return 0;
 }
