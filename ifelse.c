@@ -73,6 +73,7 @@ int main()
 
     // nested if else
     // check positive and even and od number:
+    // test 
 
     int num;
     printf("Please enter a number");

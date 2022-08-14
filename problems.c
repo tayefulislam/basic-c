@@ -52,11 +52,33 @@ int main()
 
     //  c. if a number is greater than 9 & less than 100 -> ture (2 disit number);
     // or check number 2disit or not
-    int x;
-    printf("Plase enter a number :");
-    scanf("%d", &x);
+    // int x;
+    // printf("Plase enter a number :");
+    // scanf("%d", &x);
 
-    printf("%d\n", (x > 9) && (x < 100));
+    // printf("%d\n", (x > 9) && (x < 100));
+
+    /*
+
+    Pratice Question 9;
+
+    Write a program to check if a student passed or failed.
+    pass mark 30
+
+    */
+
+    int mark;
+    printf("Plase enter your mark:");
+    scanf("%d", &mark);
+
+    if (mark >= 30 && mark <= 100)
+    {
+        printf("Passed\n");
+    }
+    else
+    {
+        printf("Fail\n");
+    }
 
     return 0;
 }
