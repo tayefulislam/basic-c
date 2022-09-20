@@ -1,10 +1,12 @@
 #include <stdio.h>
 
-void printHello(); // functon call
+void printHello(); // declare function prototype
+void printGoodBye();
 
 int main()
 {
     printHello(); // function call
+    printGoodBye();
     return 0;
 }
 
@@ -12,4 +14,9 @@ int main()
 void printHello()
 {
     printf("Hello\n");
-}
+};
+
+void printGoodBye()
+{
+    printf("Good Bye\n");
+};
